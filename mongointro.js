@@ -1,6 +1,6 @@
 const mongodb = require('mongodb').MongoClient;
 
-const url = "mongodb+srv://utk:utkarsh@utkcluster.fuxh4.mongodb.net/nodejs?retryWrites=true&w=majority"
+const url = "mongodb+srv://username<password>./nodejs?retryWrites=true&w=majority"
 const { Console } = require('console');
 var obj = require('./insert.js');
 // mongodb.connect(url, function(err, db) {
